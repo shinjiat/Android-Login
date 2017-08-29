@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.shinjiat.androidlogin.LoginActivity"
+              android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/loginScreen_USERNAME"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="INTI ID"
+        android:layout_centerInParent="true"
+        android:textColorHint="#EBA4B7"
+        android:backgroundTint="#FF4181"
+        android:gravity="left"
+        android:layout_above="@+id/loginScreen_PASSWORD"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/loginScreen_PASSWORD"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:ems="10"
+        android:layout_centerInParent="true"
+        android:textColorHint="#EBA4B7"
+        android:backgroundTint="#FF4181"
+        android:layout_above="@+id/loginScreen_LoginButton"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:text="LOGIN"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/loginScreen_LoginButton"
+        android:layout_gravity="center"
+        android:textColor="#F8F6FB"
+        android:background="#FF4181"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/loginScreen_GuestButton"
+         />
+
+    <Button
+        android:text="GUEST"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/loginScreen_GuestButton"
+        android:textColor="#F8F6FB"
+        android:background="#FF4181"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
