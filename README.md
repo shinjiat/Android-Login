@@ -6,4 +6,5 @@ Login with student ID and password, which shares the same login credentials with
 # Guest Login
 Provide access to non INTI students
 
-# Wireframe + Screenshot of the Login Screen
+# Screenshot
+![image](https://github.com/shinjiat/Android-Login/blob/master/AndroidLogin/ScreenShot_20170829203644.png)
