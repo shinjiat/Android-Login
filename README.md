@@ -1,6 +1,7 @@
 # Login Screen for Final Year Project (INTI Digital Signage Mobile Application for INTI International College @ Subang Jaya)
 A login screen created for my Final Year Project(Android App) that interacts with online database.
-This login screen provide user login(require student login credentials) and guest login(generate session token).
+
+This login screen provide user login (require student login credentials) and guest login (generate session token).
 
 ## Permissions
     <uses-permission android:name="android.permission.INTERNET"/>
